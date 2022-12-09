@@ -120,12 +120,7 @@
             <span>Billing</span></a
           >
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="index.html">
-            <i class="fas fa-dollar-sign fa-fw"></i>
-            <span>Discounts</span></a
-          >
-        </li>
+
         <li class="nav-item">
           <a class="nav-link" href="index.html">
             <i class="fas fa-fw fa-handshake"></i>
@@ -133,9 +128,15 @@
           >
         </li>
         <li class="nav-item active">
-          <a class="nav-link" href="index.html">
+          <a class="nav-link" href="#">
             <i class="far fa-fw fa-address-card"></i>
             <span>Contact Us</span></a
+          >
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">
+            <i class="fas fa-dollar-sign fa-fw"></i>
+            <span>Discounts / Coupons</span></a
           >
         </li>
       </ul>
@@ -333,7 +334,7 @@
         </div>
 
         <div class="container mb-4">
-          <div class="service-wrapper p-3">
+          <div class="service-wrapper contact-service-wrapper">
             <div class="service-content-left pl-4">
               <h2>
                 Contact us, <br />
@@ -351,16 +352,146 @@
           </div>
         </div>
 
-        <div class="container">
-          <div class="row">
+        <!-- Contact us info -->
+        <div class="container contact-info-container mb-4">
+          <div class="row m-4">
             <div class="col-md-4 contact-info">
               <div class="card shadow mb-4">
-                <div class="card-body"></div>
+                <div class="card-body mt-5">
+                  <div class="contact-info-icon">
+                    <i class="fas fa-phone-alt"></i>
+                  </div>
+                  <div class="contact-info-content">
+                    <h4 class="fw-700">For Enquiries</h4>
+                    <a href="tel:02 8880 5646">02 8880 5646 </a>
+                  </div>
+                  <div class="contact-info-content">
+                    <a href="tel:02 7254 4827">02 7254 4827 </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 contact-info">
+              <div class="card shadow mb-4">
+                <div class="card-body mt-5">
+                  <div class="contact-info-icon">
+                    <i class="fas fa-envelope"></i>
+                  </div>
+                  <div class="contact-info-content">
+                    <h4 class="fw-700">Email</h4>
+                    <a href="mailto:info@murphystechnology.com"
+                      >info@murphystechnology.com</a
+                    >
+                  </div>
+                  <div class="contact-info-content">
+                    <a href="mailto:support@murphystechnology.com.au"
+                      >support@murphystechnology.com.au</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 contact-info">
+              <div class="card shadow mb-4">
+                <div class="card-body mt-5">
+                  <div class="contact-info-icon">
+                    <i class="fas fa-map-marker-alt"></i>
+                  </div>
+                  <div class="contact-info-content">
+                    <h4 class="fw-700">Office</h4>
+                    <p class="mb-0 fs-15">
+                      Unit 46 162/170 Parramatta Road, <br />
+                      Homebush NSW 2140
+                    </p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
         <!-- End of Main Content -->
+        <div class="bg-white">
+          <div class="container my-5 pt-3">
+            <h2 class="h3 text-center fw-700 mb-4">
+              We're Ready To Help <br />
+              You Send Us Message.
+            </h2>
+            <div class="row justify-content-center">
+              <div class="col-8">
+                <div class="contact-form">
+                  <form>
+                    <div class="form-group row">
+                      <div class="col-sm-6 mb-3 mb-sm-0">
+                        <label for="firstName" class="fw-700">Name</label>
+                        <input
+                          type="text"
+                          class="form-control form-control-user"
+                          id="firstName"
+                          required=""
+                          placeholder="Enter Name"
+                        />
+                      </div>
+                      <div class="col-sm-6">
+                        <label for="lastName" class="fw-700">Email</label>
+                        <input
+                          type="email"
+                          class="form-control form-control-user"
+                          id="email"
+                          placeholder="Enter email"
+                          required=""
+                        />
+                      </div>
+                    </div>
+                    <div class="form-group row">
+                      <div class="col-sm-6 mb-3 mb-sm-0">
+                        <label for="firstName" class="fw-700">Phone</label>
+                        <input
+                          type="text"
+                          class="form-control form-control-user"
+                          id="phoneNum"
+                          required=""
+                          placeholder="Enter phone"
+                        />
+                      </div>
+                      <div class="col-sm-6">
+                        <label for="lastName" class="fw-700">Subject</label>
+                        <input
+                          type="text"
+                          class="form-control form-control-user"
+                          id="subject"
+                          required=""
+                          placeholder="Enter subject"
+                        />
+                      </div>
+                    </div>
+                    <div class="form-group row">
+                      <div class="col-12">
+                        <label for="message" class="d-block fw-700"
+                          >Message</label
+                        >
+                        <textarea
+                          name="mesage"
+                          id="message"
+                          class="w-100 p-3"
+                          cols="30"
+                          rows="5"
+                          placeholder="Write Message"
+                        ></textarea>
+                      </div>
+                    </div>
+                    <div class="d-flex mt-4 justify-content-center">
+                      <input
+                        type="submit"
+                        value="Send Message"
+                        class="btn-primary btn px-4 py-3"
+                      />
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
 
         <!-- Footer -->
         <footer class="sticky-footer bg-white">
