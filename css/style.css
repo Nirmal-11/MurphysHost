@@ -5071,11 +5071,11 @@ input[type="button"].btn-block {
 .breadcrumb {
   display: flex;
   flex-wrap: wrap;
-  padding: 0.75rem 1rem;
+  padding: 0.3rem 0;
   margin-bottom: 1rem;
   list-style: none;
-  background-color: #eaecf4;
   border-radius: 0.35rem;
+  font-size: 0.9rem;
 }
 
 .breadcrumb-item + .breadcrumb-item {
@@ -10369,7 +10369,7 @@ a:focus {
 }
 
 .bg-nav {
-  background-color: #202020;
+  background-color: #001042;
 }
 
 .bg-gradient-secondary {
@@ -10817,7 +10817,7 @@ a:focus {
 }
 
 .sidebar .nav-item .nav-link {
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .sidebar .nav-item .collapse {
@@ -11032,7 +11032,7 @@ a:focus {
     width: 270px;
   }
   .sidebar .nav-item .nav-link i {
-    font-size: 1.25rem;
+    font-size: 1.1rem;
     margin-right: 0.25rem;
   }
   .sidebar .nav-item .nav-link span {
@@ -11136,10 +11136,6 @@ a:focus {
 
 .sidebar-dark .nav-item .nav-link {
   color: rgba(255, 255, 255, 0.8);
-}
-
-.sidebar-dark .nav-item .nav-link i {
-  color: #1062fe !important;
 }
 
 .sidebar-dark .nav-item .nav-link:active,
@@ -11419,4 +11415,76 @@ body.sidebar-toggled footer.sticky-footer {
   left: 24px;
   justify-content: start;
   margin: 0;
+}
+
+/* Service page css */
+.service-wrapper {
+  background: linear-gradient(278.54deg, #001dac 15.93%, #000f57 98.7%);
+  border-radius: 10px;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.service-wrapper img {
+  height: 300px;
+}
+
+.service-wrapper .service-content-left {
+  width: 50%;
+}
+
+.service-wrapper .service-content-right {
+  width: 50%;
+  display: inline-flex;
+  justify-content: end;
+}
+
+.purchase-plan .purchase-price {
+  font-size: 42px;
+  font-weight: 700;
+  color: #007bff;
+}
+
+.purchase-plan .purchase-price span {
+  position: relative;
+  top: -15px;
+  left: 10px;
+  font-weight: 400;
+  font-family: sans-serif;
+}
+
+.purchase-plan ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.purchase-plan ul li {
+  padding: 0.6rem 0;
+}
+
+.purchase-plan ul i {
+  padding-right: 10px;
+  color: #007bff;
+}
+
+.purchase-plan .card-body {
+  position: relative;
+  overflow: hidden;
+}
+
+.purchase-plan .badge {
+  position: absolute;
+  top: 45px;
+  right: -55px;
+  transform: rotate(45deg);
+  padding: 12px;
+  font-size: 14px;
+  width: 247px;
+  background: linear-gradient(95.45deg, #1c40f2 98.23%, #0082f8 0.64%);
+}
+
+.purchase-plan a {
+  padding: 13px;
 }
