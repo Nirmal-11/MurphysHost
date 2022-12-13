@@ -10040,6 +10040,10 @@ button.bg-dark:focus {
   color: #1062fe !important;
 }
 
+.h-primary {
+  color: #073172;
+}
+
 .shortcut-lists a {
   transition: all 0.24s ease;
 }
@@ -10258,6 +10262,10 @@ a:focus {
   display: flex;
 }
 
+#wrapper .discount-wrapper {
+  background-color: #fff !important;
+}
+
 #wrapper #content-wrapper {
   background-color: #f8f9fc;
   width: 100%;
@@ -10373,7 +10381,7 @@ a:focus {
 }
 
 .bg-nav {
-  background-color: #000f57;
+  background-color: #08012e;
 }
 
 .bg-gradient-secondary {
@@ -11423,7 +11431,7 @@ body.sidebar-toggled footer.sticky-footer {
 
 /* Service page css */
 .service-wrapper {
-  background: linear-gradient(278.54deg, #001dac 15.93%, #000f57 98.7%);
+  background: #08012e;
   border-radius: 10px;
   color: #fff;
   display: flex;
@@ -11475,6 +11483,10 @@ body.sidebar-toggled footer.sticky-footer {
 .purchase-plan ul i {
   padding-right: 10px;
   color: #007bff;
+}
+
+.purchase-plan ul .bi-x-circle {
+  color: red;
 }
 
 .purchase-plan .card-body {
@@ -11552,4 +11564,54 @@ body.sidebar-toggled footer.sticky-footer {
 
 .form-control:focus {
   box-shadow: none;
+}
+
+/* Review for google and facebook css */
+.review-container img {
+  width: 40px;
+  height: 40px;
+}
+
+.review-container .review-card {
+  display: inline-flex;
+  align-items: center;
+  color: #333;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  border-top: 5px solid #4fce6a;
+  text-decoration: none;
+  background: #fff;
+  padding: 10px 16px;
+  width: 100%;
+}
+
+.review-container .google-card i,
+.review-container .google-card h4 {
+  color: #e7711b;
+}
+
+.review-container .facebook-card i,
+.review-container .facebook-card h4 {
+  color: #3b5998;
+}
+
+.review-container {
+  position: fixed;
+  left: 250px;
+  z-index: 9999;
+  bottom: 20px;
+  width: 290px;
+}
+
+/* Refer a friend page CSS */
+.affilate-step {
+  text-align: center;
+  background: #fff;
+  box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px;
+  min-height: 327px;
+  border-radius: 10px;
+}
+
+.affilate-step img {
+  height: 80px;
+  width: 80px;
 }
