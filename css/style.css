@@ -55,6 +55,7 @@ html {
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  scroll-behavior: smooth;
 }
 
 article,
@@ -72,10 +73,8 @@ section {
 
 body {
   margin: 0;
-  font-family: "Nunito", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
-    "Segoe UI Symbol", "Noto Color Emoji";
-  font-size: 1rem;
+  font-family: "Poppins", sans-serif;
+  font-size: 0.95rem;
   font-weight: 400;
   line-height: 1.5;
   color: #000000;
@@ -113,7 +112,11 @@ p {
 }
 
 .fw-600 {
-  font-weight: 600;
+  font-weight: 600 !important;
+}
+
+.fw-500 {
+  font-weight: 500 !important;
 }
 
 .fw-700 {
@@ -10825,11 +10828,11 @@ a:focus {
 }
 
 .sidebar .nav-item.active {
-  background: #ffffff0f;
+  background: #153ef2;
 }
 
 .sidebar .nav-item .nav-link {
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .sidebar .nav-item .collapse {
@@ -10852,7 +10855,7 @@ a:focus {
 .sidebar .nav-item .collapse .collapse-inner,
 .sidebar .nav-item .collapsing .collapse-inner {
   min-width: 10rem;
-  font-size: 1rem;
+  font-size: 0.9rem;
   margin: 0 0 1rem 0;
 }
 
@@ -11005,8 +11008,8 @@ a:focus {
 .user-profile-details p {
   font-size: 14px;
   margin-bottom: 5px;
-  font-weight: 600;
-  color: #5e636e;
+  font-weight: 500;
+  color: #262626;
 }
 
 @media (min-width: 768px) {
@@ -11433,6 +11436,7 @@ body.sidebar-toggled footer.sticky-footer {
 .service-wrapper {
   background: #08012e;
   border-radius: 10px;
+  padding: 22px 7px;
   color: #fff;
   display: flex;
   justify-content: space-between;
@@ -11534,7 +11538,7 @@ body.sidebar-toggled footer.sticky-footer {
 .contact-info .contact-info-content a {
   color: #000000;
   text-decoration: none;
-  font-size: 15px;
+  font-size: 14px;
 }
 
 .contact-form textarea {
@@ -11607,11 +11611,56 @@ body.sidebar-toggled footer.sticky-footer {
   text-align: center;
   background: #fff;
   box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px;
-  min-height: 327px;
+  min-height: 318px;
   border-radius: 10px;
 }
 
+.affilate-step:hover img {
+  transform: rotateY(180deg);
+}
+
 .affilate-step img {
-  height: 80px;
-  width: 80px;
+  height: 70px;
+  width: 70px;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+#accordionExample .card-header h2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 28px;
+  color: #fff;
+}
+
+.faq-wrapper {
+  background: #08012e;
+}
+
+.faq-wrapper .accordian,
+.faq-wrapper .card {
+  background: #08012e;
+}
+
+.faq-wrapper .card {
+  border: 2px solid #262d5c !important;
+  margin-bottom: 10px;
+  border-radius: 10px !important;
+}
+
+.faq-wrapper .card .card-header {
+  background: #08012e;
+  border-bottom: 2px solid #262d5c;
+}
+
+.faq-wrapper .card .card-body {
+  color: #fff;
+  opacity: 0.9;
+}
+
+.faq-wrapper .faq-query {
+  opacity: 0.9;
 }

@@ -13,8 +13,9 @@
   <!-- Custom fonts for this template-->
   <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css" />
   <link
-    href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400, 500, 500i, 400i,600,600i,700,700i,800,800i,900,900i"
-    rel="stylesheet" />
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
 
   <link rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.2/font/bootstrap-icons.min.css"
@@ -219,7 +220,7 @@
       <div class="container mb-4">
         <div class="service-wrapper contact-service-wrapper">
           <div class="service-content-left pl-4">
-            <h2>
+            <h2 class="fw-500">
               Contact us, <br />
               Feel free to contact
             </h2>
@@ -237,7 +238,7 @@
 
       <!-- Contact us info -->
       <div class="container contact-info-container mb-4">
-        <div class="row m-4">
+        <div class="row m-2">
           <div class="col-md-4 contact-info">
             <div class="card shadow mb-4">
               <div class="card-body mt-5">
@@ -245,7 +246,7 @@
                   <i class="fas fa-phone-alt"></i>
                 </div>
                 <div class="contact-info-content">
-                  <h4 class="fw-700">For Enquiries</h4>
+                  <h4 class="fw-600">For Enquiries</h4>
                   <a href="tel:02 8880 5646">02 8880 5646 </a>
                 </div>
                 <div class="contact-info-content">
@@ -261,7 +262,7 @@
                   <i class="fas fa-envelope"></i>
                 </div>
                 <div class="contact-info-content">
-                  <h4 class="fw-700">Email</h4>
+                  <h4 class="fw-600">Email</h4>
                   <a href="mailto:info@murphystechnology.com">info@murphystechnology.com</a>
                 </div>
                 <div class="contact-info-content">
@@ -277,8 +278,8 @@
                   <i class="fas fa-map-marker-alt"></i>
                 </div>
                 <div class="contact-info-content">
-                  <h4 class="fw-700">Office</h4>
-                  <p class="mb-0 fs-15">
+                  <h4 class="fw-600">Office</h4>
+                  <p class="mb-0 fs-14">
                     Unit 46 162/170 Parramatta Road, <br />
                     Homebush NSW 2140
                   </p>
@@ -291,7 +292,7 @@
       <!-- End of Main Content -->
       <div class="bg-white">
         <div class="container my-5 pt-3">
-          <h2 class="h3 text-center fw-700 mb-4">
+          <h2 class="h3 text-center fw-600 mb-4">
             We're Ready To Help <br />
             You Send Us Message.
           </h2>

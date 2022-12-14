@@ -13,8 +13,9 @@
     <!-- Custom fonts for this template-->
     <link href="./vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css" />
     <link
-        href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400, 500, 500i, 400i,600,600i,700,700i,800,800i,900,900i"
-        rel="stylesheet" />
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
 
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.2/font/bootstrap-icons.min.css"
@@ -219,7 +220,7 @@
                 <div class="container mb-4">
                     <div class="service-wrapper px-4 py-3">
                         <div class="service-content-left pl-4">
-                            <h2>Improve SEO</h2>
+                            <h2 class="fw-500">Improve SEO</h2>
                             <p>
                                 SEO and Digital Marketing packages customized to your business goals, designed to
                                 increase your digital footprint and online visibility making it easier for potential
@@ -235,7 +236,7 @@
 
             <!-- Purchase order section content -->
             <div class="container my-5">
-                <h2 class="h2 text-center fw-700 mb-1 text-gray-900">
+                <h2 class="h2 text-center fw-700 mb-1">
                     Plans And Pricing
                 </h2>
                 <p class="text-center fs-14 mb-5">

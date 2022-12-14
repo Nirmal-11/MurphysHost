@@ -13,8 +13,9 @@
   <!-- Custom fonts for this template-->
   <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css" />
   <link
-    href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400, 500, 500i, 400i,600,600i,700,700i,800,800i,900,900i"
-    rel="stylesheet" />
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
 
   <link rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.2/font/bootstrap-icons.min.css"
@@ -218,7 +219,7 @@
           <div class="row mt-5">
             <div class="col-xl-4 col-lg-5 pr-4">
               <div class="client-infos">
-                <h5 class="fw-700 fs-17 mb-3 text-gray-900">
+                <h5 class="fw-600 fs-17 mb-3">
                   Other Information
                 </h5>
 
@@ -237,7 +238,7 @@
                 <div class="card-body">
                   <img class="img-profile rounded-circle" src="img/undraw_profile.svg" />
                   <div class="user-profile-details">
-                    <h5 class="fw-700 fs-17 mb-3 mt-3 text-gray-900">
+                    <h5 class="fw-600 fs-17 mb-3 mt-3">
                       Bipin Murphys
                     </h5>
                     <p>New South Wales, North Pole 2140</p>
@@ -250,19 +251,19 @@
                 </div>
               </div>
               <div class="shortcuts-links mb-5 pt-2">
-                <h5 class="fw-700 fs-17 mb-3 text-gray-900">Shortcuts</h5>
+                <h5 class="fw-600 fs-17 mb-3">Shortcuts</h5>
                 <div class="shortcut-lists">
                   <div class="d-flex flex-column">
-                    <a class="text-decoration-none fw-600 mb-2 text-primary" href="#">
+                    <a class="text-decoration-none fw-500 mb-2 text-primary" href="#">
                       <i class="fas fa-plus fa-sm fa-fw mr-1"></i>
                       Order New Services
                     </a>
                     <a href="https://www.hosting.murphystechnology.com.au/" target="_blank"
-                      class="text-decoration-none fw-600 mb-2 text-primary">
+                      class="text-decoration-none fw-500 mb-2 text-primary">
                       <i class="fas fa-tag fa-sm fa-fw mr-1"></i>
                       Domain Registration
                     </a>
-                    <a href="login.html" class="text-decoration-none fw-600 mb-2 text-primary">
+                    <a href="login.html" class="text-decoration-none fw-500 mb-2 text-primary">
                       <i class="fas fa-sign-out-alt fa-sm fa-fw mr-1"></i>
                       Logout
                     </a>
