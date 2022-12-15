@@ -49,7 +49,7 @@
             <li class="nav-item">
                 <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo"
                     aria-expanded="true" aria-controls="collapseTwo">
-                    <i class="bi bi-box-fill"></i>
+                    <i class="bi bi-box-fill mr-2"></i>
                     <span>Order New Service</span>
                 </a>
                 <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
@@ -60,7 +60,7 @@
                             and SEO</a>
                         <a class="collapse-item" href="buttons.html"><i class="bi bi-laptop-fill"></i>Logo Design</a>
                         <a class="collapse-item" href="cards.html"><i class="bi bi-laptop-fill"></i>App Development</a>
-                        <a class="collapse-item active" href="services/website-design.php"><i
+                        <a class="collapse-item" href="services/website-design.php"><i
                                 class="bi bi-laptop-fill"></i>Website Design</a>
                         <a class="collapse-item" href="services/web-hosting.php"><i class="bi bi-laptop-fill"></i>Web
                             Hosting</a>

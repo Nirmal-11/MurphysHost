@@ -71,7 +71,7 @@
             aria-expanded="true"
             aria-controls="collapseTwo"
           >
-            <i class="bi bi-box-fill"></i>
+            <i class="bi bi-box-fill mr-2"></i>
             <span>Order New Service</span>
           </a>
           <div
